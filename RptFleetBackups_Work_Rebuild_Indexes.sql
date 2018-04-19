@@ -1,0 +1,1 @@
+alter index all on RptFleetBackups_Work rebuild

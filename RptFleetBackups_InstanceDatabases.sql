@@ -1,0 +1,1 @@
+select @@servername,name,recovery_model_desc from sys.databases where name not like '%TempDB%'and name not like '%tempdb%' and state_desc = 'ONLINE'
